@@ -1,7 +1,7 @@
 ## About Me
 
 
-Hello! I am a passionate frontend developer. I have created this portfolio project to showcase my skills and projects using HTML, CSS, and Vanilla JavaScript.
+Hello! My name is Ankit Yadav and I am a passionate frontend developer. I have created this portfolio project to showcase my skills and projects using HTML, CSS, and Vanilla JavaScript.
 
 ### Technologies Used
 
