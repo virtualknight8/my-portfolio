@@ -236,8 +236,7 @@ header {
   height: 120px;
   width: 100px;
   padding: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px;
   border-radius: 10px;
 }
 
@@ -310,6 +309,11 @@ header {
   height: 200px;
   padding: 20px;
   justify-content: space-between;
+}
+
+.projects img{
+    border: 3px solid yellow;
+    border-radius:5px;
 }
 
 #project1 {
@@ -457,7 +461,8 @@ header {
     
     header{
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        display: block;
     }
     
     body{
@@ -510,7 +515,7 @@ header {
     }
     
     .skilldivs{
-        margin: 0;
+        margin: 05px;
     }
     
     #content3{
