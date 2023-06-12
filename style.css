@@ -253,28 +253,46 @@ header {
   flex-wrap: wrap;
 }
 
+.skilldivs:nth-child(2){
+    border: 2px solid #e34c26;
+}
 .skilldivs:nth-child(2):hover {
   background-color: #e34c26;
 }
 
+.skilldivs:nth-child(1){
+    border: 3px solid #3d2d00;
+}
 .skilldivs:nth-child(1):hover {
   background-color: #3d2d00;
 }
 
+.skilldivs:nth-child(3){
+    border: 2px solid #264de4;
+}
 .skilldivs:nth-child(3):hover {
   background-color: #264de4;
 }
 
+.skilldivs:nth-child(4){
+    border: 2px solid #f0db4f;;
+}
 .skilldivs:nth-child(4):hover {
   background-color: #f0db4f;
   color: black;
 }
 
+.skilldivs:nth-child(5){
+    border: 2px solid #0078d7;
+}
 .skilldivs:nth-child(5):hover {
   background-color: #0078d7;
   color: black;
 }
 
+.skilldivs:nth-child(6){
+    border: 2px solid #7cc5d9;
+}
 .skilldivs:nth-child(6):hover {
   background-color: #7cc5d9;
   color: black;
@@ -285,8 +303,7 @@ header {
   height: 100%;
 }
 
-#project1,
-#project2 {
+.projects {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -426,4 +443,118 @@ header {
   .div1 > p {
     display: none;
   }
+}
+
+@media screen and (max-width:799px) {
+  .content{
+    display: flex !important;
+      margin-bottom: 50px;
+  }
+
+  .sidebar{
+    display: none;
+  }
+    
+    header{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    body{
+        height: auto;
+        background: #242529;
+        padding: 20px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .contentcontainer{
+        height: auto;
+        padding: inherit;
+    }
+    
+    #content1{
+        height: auto;
+        
+    }
+    
+    #content1>img{
+        max-width: max(30%,100px);
+        margin: 20px;
+    }
+    
+    #content2{
+        height: auto;
+    }
+    
+    .content21{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .content211{
+        margin-bottom: 40px;
+        justify-content: center;
+        
+        
+    }
+    
+    .content212>div{
+        margin-left: 0;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .skilldivs{
+        margin: 0;
+    }
+    
+    #content3{
+        height: auto;
+    }
+    
+    .projects{
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #project1>img{
+        order: 1;
+        -webkit-order:1;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    
+    .prjsdiv1{
+        order: 2;
+        -webkit-order:2;
+    }
+    
+    #project1{
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+    
+    #project2{
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+    
+    #project2>img{
+        margin: 25px auto;
+        
+    }
+    
+    .edudivs{
+        max-width: 150px;
+        width: auto;
+    }
 }

@@ -45,8 +45,20 @@ buttons.forEach((button) =>{
     })
 })
 
-/*educationButton.addEventListener('click', ()=>{
-    contentContainer.removeChild(childDiv);
-    eduContent.style.display='block';
-    contentContainer.appendChild(eduContent);
-});*/
+
+const sudokuTryButton = document.querySelector('#sudotry');
+const portfolioViewSource = document.querySelector('#portview');
+const sudokuViewSource = document.querySelector('#sudoview');
+
+sudokuTryButton.addEventListener('click', ()=>{
+    window.location.href='https://virtualknight8.github.io/sudoku-solver/';
+});
+
+portfolioViewSource.addEventListener('click', ()=>{
+    window.location.href='https://github.com/virtualknight8/my-portfolio';
+});
+
+sudokuViewSource.addEventListener('click', ()=>{
+    window.location.href='https://github.com/virtualknight8/sudoku-solver'
+});
+
