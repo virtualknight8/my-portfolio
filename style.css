@@ -607,5 +607,11 @@ header {
         margin:0 ;
     }
 
+    #unidiv:hover > .hid-box {
+      top: -80%;
+    }
     
+    #degreediv:hover > .hid-box {
+      top: -83%;
+    }
 }
