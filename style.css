@@ -534,15 +534,18 @@ header {
     
     .content211{
         margin-bottom: 40px;
-        justify-content: center;
-        
-        
+        justify-content: space-around;  
+    }
+
+    .content211>div{
+      margin-right: 0;
     }
     
     .content212>div{
-        margin-left: 0;
+        margin-left: auto;
         text-align: center;
         max-width: 100%;
+        margin-right: auto;
     }
     
     .skilldivs{
@@ -598,7 +601,12 @@ header {
         
     }
     
-    
+    .edudivs{
+        max-width: 150px;
+        min-width: 130px;
+        width: auto;
+        margin:0 ;
+    }
 
     
 }
