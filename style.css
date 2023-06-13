@@ -488,7 +488,7 @@ header {
     
     .contentcontainer{
         height: auto;
-        padding: inherit;
+        padding: 10px;
     }
     
     #content1{
