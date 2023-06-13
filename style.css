@@ -534,7 +534,7 @@ header {
     
     .content211{
         margin-bottom: 40px;
-        justify-content: space-around;  
+        justify-content: space-between;  
     }
 
     .content211>div{
@@ -602,8 +602,7 @@ header {
     }
     
     .edudivs{
-        max-width: 150px;
-        min-width: 130px;
+        max-width: 130px;
         width: auto;
         margin:0 ;
     }
