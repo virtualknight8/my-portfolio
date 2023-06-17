@@ -521,7 +521,7 @@ header {
     
     #content1{
         height: auto;
-        
+        max-height: 530px;
     }
     
     .content::before{
@@ -540,6 +540,7 @@ header {
     #content1>img{
         max-width: max(30%,100px);
         margin: 20px;
+        
     }
     
     #content2{
