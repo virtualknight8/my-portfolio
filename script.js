@@ -52,7 +52,7 @@ const sudokuViewSource = document.querySelector('#sudoview');
 const resumebtn = document.getElementById('resumebutton');
 
 sudokuTryButton.addEventListener('click', ()=>{
-    window.location.href='https://virtualknight8.github.io/sudoku-solver/';
+    window.location.href='https://virtualknight8.github.io/sudoku-helper/';
 });
 
 portfolioViewSource.addEventListener('click', ()=>{
