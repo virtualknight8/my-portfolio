@@ -24,15 +24,12 @@ main {
   border-radius: 20px;
   width: 100%;
   padding: 20px;
-  color: rgb(242, 218, 218);
+  color: rgb(255, 255, 255);
 }
 
-.div1 {
-  color: #f0db4f;
-  text-align: center;
-  margin-bottom: 40px;
-  align-self: flex-start;
-}
+
+
+
 
 span {
   color: rgb(255, 0, 89);
@@ -99,16 +96,19 @@ span {
   border-radius: 50%;
   overflow: hidden;
   margin: 50px;
+  order: 2;
 }
 
 #content1 {
-  flex-direction: column;
+  flex-direction: row;
   justify-content: stretch;
   height: 80%;
   padding: 20px;
-  background-color: #00C2FF;
-  color: black;
+  font-size: 1.8rem;
+  
   border-radius: 15px;
+  word-spacing: 5px;
+  line-height: 40px;
 }
 
 .content::before{
@@ -355,6 +355,10 @@ header {
 #content3 {
   flex-direction: column;
   height: 100%;
+}
+
+#content3 p{
+  font-size: larger;
 }
 
 .projects {
