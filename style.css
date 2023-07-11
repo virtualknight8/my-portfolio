@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   
-  background-color: #242529;
+  background-color: #000000;
   background-size: contain;
   padding: 100px;
   font-family: 'Outfit', sans-serif;
@@ -35,8 +35,8 @@ main {
 }
 
 span {
-  color: rgb(255, 0, 89);
-  font-size: xx-large;
+  color: #30A25A;
+  
 }
 
 .sidebar {
@@ -49,66 +49,41 @@ span {
   color: white;
 }
 
-.sidebar > button {
-  display: block;
-  background-color: inherit;
-  border: none;
-  font-family: 'Outfit', sans-serif;
-  font-size: 1rem;
-  border-radius: 8px;
-  padding: 10px;
-  margin-top: 20px;
-  color: rgb(242, 218, 218);
-  white-space: nowrap;
-}
 
-.sidebar > button:hover {
-  background-color: rgb(70, 68, 68);
-}
 
-.sidebar img {
-  height: 100px;
-  width: 100px;
-}
 
-.contentcontainer {
-  grid-row: 2/4;
-  grid-column: 2/5;
-}
-
-#aboutmecontent {
-  background-color: antiquewhite;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-#usr {
-  height: 16px;
-  width: 16px;
-}
-
-#content1 > img {
-  display: block;
-  max-width: 150px;
-  height: auto;
-  opacity: 0;
-  animation: popUpAnimation 1s ease-out forwards, popAnimation 3s ease-in-out infinite;
-  -webkit-animation: popUpAnimation 1s ease-out forwards, popAnimation 3s ease-in-out infinite;
-  box-shadow: 0px 10px 20px rgba(208, 176, 176, 0.5);
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 50px;
-}
 
 #content1 {
   flex-direction: column;
-  justify-content: stretch;
-  height: 80%;
+  justify-content:space-between;
+  align-items: flex-start;
+  height: 400px;
   padding: 20px;
-  background-color: #00C2FF;
-  color: black;
+  background-color: #000000;
+  color: #8f9094;
   border-radius: 15px;
+}
+
+h1{
+  color: white;
+  font-size: 6rem;
+  margin-top: -20px;
+}
+
+#heytext{
+  color: #30A25A;
+  font-size: 2rem;
+
+}
+
+#intro{
+  font-size:  2rem; ;
+
+}
+
+.intro2{
+  font-size: 1.3rem;
+  
 }
 
 .content::before{
@@ -190,7 +165,7 @@ header {
 .content212 > div {
   margin-bottom: 10px;
   width: 100%;
-  background-color: #00C2FF;
+  background-color: #30A25A;
   margin-left: 2%;
   color: black;
   border-radius: 5px;
@@ -246,7 +221,7 @@ header {
 .edudivs {
   height: 150px;
   width: 150px;
-  background-color: #fff37a;
+  background-color: #30A25A;
   margin: auto;
   border-radius: 10px;
   overflow: hidden;
@@ -260,7 +235,7 @@ header {
   padding: 20px;
   position: relative;
   transition: all .3s ease-out;
-  background: #428bca;
+  background: #5e5f60;
   height: 100%;
 }
 
@@ -368,7 +343,7 @@ header {
 }
 
 .projects img{
-    border: 3px solid yellow;
+    border: 3px solid #30A25A;
     border-radius:5px;
 }
 
@@ -395,7 +370,7 @@ header {
   padding: 10px;
   font-family: 'Outfit';
   color: white;
-  border: 2px solid #f0db4f;
+  border: 2px solid #30A25A;
   margin-bottom: 10px;
   margin-top: 10px;
   margin-right: 10px;
@@ -403,11 +378,11 @@ header {
 
 .projects button:hover {
   color: black;
-  background-color: #FAD02C;
+  background-color: #30A25A;
 }
 
 .projects h2 {
-  color: #FAD02C;
+  color: #30A25A;
 }
 
 #content4 {
@@ -418,7 +393,7 @@ header {
   height: 100%;
   width: 100%;
   font-size: x-large;
-  color: #f0db4f;
+  color: #30A25A;
 }
 
 #content4 > button {
@@ -464,15 +439,29 @@ header {
         grid-template-columns: 1fr 1fr;
     }
     
-    header{
-        text-align: center;
-        margin-bottom: 40px;
-        display: block;
+    h1{
+      margin-top: 0;
+      font-size: 3rem; 
+    }
+    
+    #heytext{
+      
+      font-size: 1.5rem;
+    
+    }
+    
+    #intro{
+      font-size: 1.3rem; ;
+    
+    }
+    
+    .intro2{
+      font-size: 1rem;
+      
     }
     
     body{
         height: auto;
-        background: #242529;
         padding: 20px;
     }
     
@@ -488,8 +477,7 @@ header {
     }
     
     #content1{
-        height: auto;
-        max-height: 530px;
+        height: 450px;
     }
     
     .content::before{
@@ -503,11 +491,6 @@ header {
         content: "My Projects";
         font-size: 2rem;
         width: 100%;
-        
-    }
-    #content1>img{
-        max-width: max(30%,100px);
-        margin: 20px;
         
     }
     
