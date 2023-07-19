@@ -64,7 +64,6 @@ span {
   justify-content:space-between;
   align-items: flex-start;
   height: 400px;
-  padding: 20px;
   background-color: #000000;
   color: #8f9094;
   border-radius: 15px;
@@ -250,7 +249,7 @@ header {
 }
 
 #degreediv:hover > .hid-box {
-  top: -82.75%;
+  top: -82.5%;
 }
 
 #unidiv > svg {
@@ -272,7 +271,8 @@ header {
   padding: 15px;
   margin: 10px;
   border-radius: 10px;
-   
+  font-size: small;
+
 }
 
 #btndiv {
@@ -331,6 +331,20 @@ header {
 .skilldivs:nth-child(6):hover {
   background-color: #7cc5d9;
   color: black;
+}
+
+.skilldivs:nth-child(7){
+  border:2px solid  #585858;
+}
+.skilldivs:nth-child(7):hover{
+  background-color:#585858 ;
+}
+
+.skilldivs:nth-child(8){
+  border: 2px solid #4c1d95;
+}
+.skilldivs:nth-child(8):hover{
+  background-color: #4c1d95;
 }
 
 #content3 {
@@ -606,6 +620,6 @@ header {
     }
     
     #degreediv:hover > .hid-box {
-      top: -83%;
+      top: -82.5%;
     }
 }
