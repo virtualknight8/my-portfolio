@@ -63,7 +63,6 @@ span {
   flex-direction: column;
   justify-content:space-between;
   align-items: flex-start;
-  height: 400px;
   background-color: #000000;
   color: #8f9094;
   border-radius: 15px;
@@ -89,6 +88,10 @@ h1{
 .intro2{
   font-size: 1.3rem;
   
+}
+
+.intro2 p{
+  margin-bottom: 10px ;
 }
 
 .content::before{
