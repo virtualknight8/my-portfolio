@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,11 +19,11 @@ body {
   background-color: #000000;
   background-size: contain;
   padding: 100px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Inter', sans-serif;
 }
 
 button{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Inter', sans-serif;
   cursor: pointer;
 }
 
@@ -67,12 +67,13 @@ span {
   background-color: #000000;
   color: #8f9094;
   border-radius: 15px;
+  margin-bottom: 250px;
 }
 
 h1{
   color: white;
   font-size: 6rem;
-  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 #heytext{
@@ -83,6 +84,7 @@ h1{
 
 #intro{
   font-size:  2rem; ;
+  margin-bottom: 30px;
 
 }
 
@@ -362,8 +364,40 @@ header {
 }
 
 .projects img{
-    border: 3px solid #30A25A;
     border-radius:5px;
+}
+
+.contactdivs{
+  margin-top: 30px;
+}
+
+.contactdivs button{
+  background-color: #141414;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #FBFCFD;
+}
+
+.contactdivs button:hover{
+  background-color: #262727;
+}
+
+.contactdivs a{
+  text-decoration: none;
+  
+  
+}
+
+.contactdivs svg{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 #project1 {
@@ -513,9 +547,6 @@ header {
         padding: 10px;
     }
     
-    #content1{
-        height: 450px;
-    }
     
     .content::before{
           content: "";
