@@ -24,6 +24,7 @@ body {
 
 button{
   font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
 }
 
 main {
@@ -377,7 +378,10 @@ header {
 
 #content3 img {
   height: 150px;
-  width: 270px;
+  min-width: 270px;
+  background-color: white;
+  object-fit: contain;
+
 }
 
 #project1 > img {
@@ -625,7 +629,7 @@ header {
     }
 
     #project2>img{
-      order: 2;
+      order: 1;
     }
 
     .prjsdiv2{
