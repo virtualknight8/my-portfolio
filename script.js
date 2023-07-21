@@ -1,10 +1,3 @@
-const contentContainer = document.querySelector('.contentcontainer');
-const aboutMeContent = document.getElementById('content1');
-const eduContent = document.getElementById('content2');
-const projectContent = document.querySelector('#content3');
-const contactMeContent = document.getElementById('content4');
-const buttons = document.querySelectorAll('.sidebar button');
-
 const sudokuTryButton = document.querySelector('#sudotry');
 const portfolioViewSource = document.querySelector('#portview');
 const sudokuViewSource = document.querySelector('#sudoview');
