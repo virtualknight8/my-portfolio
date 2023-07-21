@@ -379,6 +379,7 @@ header {
 #content3 img {
   height: 150px;
   min-width: 270px;
+  max-width: 270px;
   background-color: white;
   object-fit: contain;
 
