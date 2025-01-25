@@ -5,6 +5,7 @@ const resumebtn = document.getElementById('resumebutton');
 const sourceButton = document.getElementById('sourcebutton');
 const landingPageTryButton = document.getElementById('landingpagetry');
 const landingPageSourceButton = document.getElementById('landingpagesource');
+const ecomtryliveButton = document.getElementById('ecomtry');
 
 sudokuTryButton.addEventListener('click', ()=>{
     window.location.href='https://virtualknight8.github.io/sudoku-helper/';
@@ -32,5 +33,9 @@ landingPageSourceButton.addEventListener('click', ()=>{
 });
 
 sourceButton.addEventListener('click', ()=>{
-    window.location.href='https://github.com/virtualknight8/inventory-management';
-})
+    window.location.href='https://github.com/virtualknight8/e-commerce-marketplace';
+});
+
+ecomtryliveButton.addEventListener('click', ()=>{
+    window.location.href='https://e-commerce-marketplace-delta.vercel.app/';
+});
